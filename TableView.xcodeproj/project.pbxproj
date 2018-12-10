@@ -14,6 +14,7 @@
 		4C8A372621B7E18A0022EBEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C8A372421B7E18A0022EBEC /* LaunchScreen.storyboard */; };
 		4C8A373121B7E18C0022EBEC /* TableViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8A373021B7E18C0022EBEC /* TableViewTests.swift */; };
 		4C8A373C21B7E18C0022EBEC /* TableViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8A373B21B7E18C0022EBEC /* TableViewUITests.swift */; };
+		4CA1867421BE443F003B7AFB /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA1867321BE443F003B7AFB /* TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		4C8A373721B7E18C0022EBEC /* TableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C8A373B21B7E18C0022EBEC /* TableViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewUITests.swift; sourceTree = "<group>"; };
 		4C8A373D21B7E18C0022EBEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CA1867321BE443F003B7AFB /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				4C8A371B21B7E1060022EBEC /* AppDelegate.swift */,
 				4C8A371D21B7E1060022EBEC /* ViewController.swift */,
 				4C8A371F21B7E1070022EBEC /* Main.storyboard */,
+				4CA1867321BE443F003B7AFB /* TableViewCell.swift */,
 				4C8A372221B7E18A0022EBEC /* Assets.xcassets */,
 				4C8A372421B7E18A0022EBEC /* LaunchScreen.storyboard */,
 				4C8A372721B7E18A0022EBEC /* Info.plist */,
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CA1867421BE443F003B7AFB /* TableViewCell.swift in Sources */,
 				4C8A371E21B7E1060022EBEC /* ViewController.swift in Sources */,
 				4C8A371C21B7E1060022EBEC /* AppDelegate.swift in Sources */,
 			);
