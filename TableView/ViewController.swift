@@ -14,9 +14,13 @@ class ViewController: UIViewController, UITableViewDelegate , UITableViewDataSou
     
     var array2 = ["Gulhane","Dharmale","Ghate","Dhage"]
     
+    var arrimg = [#imageLiteral(resourceName: "Akshay"),#imageLiteral(resourceName: "Bhushan"),#imageLiteral(resourceName: "Abhjeet"),#imageLiteral(resourceName: "Amol")]
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+    
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -27,14 +31,22 @@ class ViewController: UIViewController, UITableViewDelegate , UITableViewDataSou
         
         //UITableViewStyle *cell
         
-        let cell = tableView.dequeueReusableCell(withIdentifier: "cell")
+//        let cell = tableView.dequeueReusableCell(withIdentifier: "cell")
+//
+//        cell?.textLabel?.text = array1[indexPath.row]
+//        cell?.detailTextLabel?.text = array2[indexPath.row]
+//
+//     return cell!
+//
         
-        cell?.textLabel?.text = array1[indexPath.row]
-        cell?.detailTextLabel?.text = array2[indexPath.row]
+        let cell : TableViewCell = tableView.dequeueReusableCell(withIdentifier: "cell") as! TableViewCell
         
-     return cell!
+    cell.labelFirst.text = array1[indexPath.row]
+    cell.labelSurname.text = array2[indexPath.row]
+    cell.images.image = arrimg[indexPath.row]
         
-        
+        return cell
+    
         
     }
 
